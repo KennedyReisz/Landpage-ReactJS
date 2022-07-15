@@ -20,6 +20,6 @@
 
 `npm run dev` or `yarn dev`
 
-in browser view `localhost:3000`
+in browser open `localhost:3000`
 
 ###### this project as created for a remember how to use keyframes in css 😉
