@@ -1,0 +1,158 @@
+@keyframes animeRender {
+  100% {
+    transform: rotate(360deg);
+    transform: rotate3d(360, 360, 360, 360deg);
+  }
+}
+
+@keyframes down-side-logo {
+  100% {
+    transform: rotate3d(0, -360, 0, 360deg);
+  }
+}
+
+body {
+  background-color: #d9afd9;
+  background-image: linear-gradient(0deg, #d9afd9 0%, #97d9e1 100%);
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  scroll-behavior: smooth;
+}
+
+.top-side {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.top-side img {
+  height: 65rem;
+  filter: drop-shadow(10px 10px 50px rgb(255, 255, 255));
+  animation-name: animeRender;
+  animation-duration: 3s;
+  animation-timing-function: 400ms cubic-bezier(0.47, 1.64, 0.41, 0.8);
+  animation-iteration-count: infinite;
+}
+
+.down-side {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.about-container {
+  background-color: #d9afd9;
+  background-image: linear-gradient(-170deg, #d9afd9 0%, #97d9e1 100%);
+  border: 1px solid white;
+  filter: drop-shadow(0px 0px 5px rgb(255, 255, 255));
+  border-radius: 30px;
+  width: 800px;
+  height: 500px;
+  margin: 20px;
+}
+
+.about-container .img-about-logo {
+  margin-top: 20px;
+  border-radius: 120px;
+  border: 2.5px solid white;
+  transition: all ease-in-out 0.7s;
+  animation-name: down-side-logo;
+  animation-duration: 3s;
+  animation-timing-function: 400ms cubic-bezier(0.47, 1.64, 0.41, 0.8);
+  animation-iteration-count: infinite;
+  filter: drop-shadow(0px 0px 5px rgb(255, 255, 255));
+}
+
+.about-container p a {
+  opacity: 0.15;
+  color: white;
+  text-decoration: none;
+  cursor: default;
+  transition: all ease-in-out 1s;
+}
+
+.about-container p a:hover {
+  opacity: 1;
+  cursor: default;
+}
+
+/* Response */
+
+@media screen and (max-height: 1020px) {
+  .top-side img {
+    height: 45rem;
+    filter: drop-shadow(10px 10px 50px rgb(255, 255, 255));
+    animation-name: exemplo;
+    animation-duration: 3s;
+    animation-timing-function: 400ms cubic-bezier(0.47, 1.64, 0.41, 0.8);
+    animation-iteration-count: infinite;
+  }
+}
+
+@media screen and (max-height: 1024px) {
+  .top-side img {
+    height: 45rem;
+    filter: drop-shadow(10px 10px 50px rgb(255, 255, 255));
+    animation-name: exemplo;
+    animation-duration: 3s;
+    animation-timing-function: 400ms cubic-bezier(0.47, 1.64, 0.41, 0.8);
+    animation-iteration-count: infinite;
+  }
+}
+
+@media screen and (max-height: 1180px) {
+  .top-side img {
+    height: 45rem;
+    filter: drop-shadow(10px 10px 50px rgb(255, 255, 255));
+    animation-name: exemplo;
+    animation-duration: 3s;
+    animation-timing-function: 400ms cubic-bezier(0.47, 1.64, 0.41, 0.8);
+    animation-iteration-count: infinite;
+  }
+}
+
+@media screen and (max-height: 800px) {
+  .top-side img {
+    height: 45rem;
+    filter: drop-shadow(10px 10px 50px rgb(255, 255, 255));
+    animation-name: exemplo;
+    animation-duration: 3s;
+    animation-timing-function: 400ms cubic-bezier(0.47, 1.64, 0.41, 0.8);
+    animation-iteration-count: infinite;
+  }
+}
+
+@media screen and (max-height: 768px) {
+  .top-side img {
+    height: 45rem;
+    filter: drop-shadow(10px 10px 50px rgb(255, 255, 255));
+    animation-name: exemplo;
+    animation-duration: 3s;
+    animation-timing-function: 400ms cubic-bezier(0.47, 1.64, 0.41, 0.8);
+    animation-iteration-count: infinite;
+  }
+}
+
+@media screen and (max-height: 722px) {
+  .top-side img {
+    height: 40rem;
+    filter: drop-shadow(10px 10px 50px rgb(255, 255, 255));
+    animation-name: exemplo;
+    animation-duration: 3s;
+    animation-timing-function: 400ms cubic-bezier(0.47, 1.64, 0.41, 0.8);
+    animation-iteration-count: infinite;
+  }
+}
+
+@media screen and (max-height: 600px) {
+  .top-side img {
+    height: 35rem;
+    filter: drop-shadow(10px 10px 50px rgb(255, 255, 255));
+    animation-name: exemplo;
+    animation-duration: 3s;
+    animation-timing-function: 400ms cubic-bezier(0.47, 1.64, 0.41, 0.8);
+    animation-iteration-count: infinite;
+  }
+}
