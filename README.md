@@ -12,7 +12,7 @@
 
 `nodejs` or `yarn`
 
-## ❓ | How to use?
+## ❓ | How to install dependencies?
 
 `npm install` or `yarn install`
 
@@ -20,5 +20,6 @@
 
 `npm run dev` or `yarn dev`
 
+in browser view `localhost:3000`
 
 ###### this project as created for a remember how to use keyframes in css 😉
