@@ -8,11 +8,11 @@
 <img style="" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="ReactJS-logo"/>
 </div>
 
-##💾 | Requirements:
+## 💾 | Requirements:
 
 `nodejs` or `yarn`
 
-##❓ | How to use?
+## ❓ | How to use?
 
 `npm install` or `yarn install`
 
